@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Mad Shooter — Privacy Policy</title>
+<style>
+  :root{
+    --bg:#0f1116; --panel:#ffffff; --ink:#1b2130; --muted:#5b6577;
+    --line:#e4e8f0; --accent:#00c8a0; --accent-2:#1b9bff; --head:#0f1116;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  .wrap{max-width:760px; margin:0 auto; padding:0 20px 80px}
+  header.hero{
+    background:linear-gradient(135deg,#0f1116 0%,#161c2b 60%,#10202a 100%);
+    color:#fff; padding:48px 20px 40px; border-bottom:3px solid var(--accent);
+  }
+  header.hero .wrap{padding-bottom:0}
+  .kicker{letter-spacing:.18em; text-transform:uppercase; font-size:12px; color:var(--accent); margin:0 0 8px}
+  h1{margin:0; font-size:30px; line-height:1.2; color:#fff}
+  .updated{margin:14px 0 0; color:#9aa6bd; font-size:14px}
+  main{background:var(--panel); margin-top:-1px}
+  main .wrap{padding-top:36px}
+  h2{font-size:21px; margin:38px 0 12px; padding-top:8px; border-top:1px solid var(--line)}
+  h2:first-of-type{border-top:0; padding-top:0; margin-top:8px}
+  p{margin:12px 0}
+  a{color:var(--accent-2); text-decoration:none}
+  a:hover{text-decoration:underline}
+  ul{margin:12px 0; padding-left:22px}
+  li{margin:6px 0}
+  strong{color:var(--ink)}
+  .muted{color:var(--muted)}
+  .table-scroll{overflow-x:auto; -webkit-overflow-scrolling:touch; margin:16px 0; border:1px solid var(--line); border-radius:10px}
+  table{border-collapse:collapse; width:100%; min-width:520px; font-size:15px}
+  th,td{text-align:left; padding:11px 14px; border-bottom:1px solid var(--line); vertical-align:top}
+  th{background:#f6f8fb; font-weight:600}
+  tr:last-child td{border-bottom:0}
+  .callout{background:#f3fbf8; border:1px solid #cdeee4; border-left:4px solid var(--accent);
+    padding:14px 16px; border-radius:8px; margin:18px 0}
+  .callout h2{border-top:0; margin-top:0; padding-top:0}
+  footer{color:var(--muted); font-size:14px; margin-top:40px; padding-top:20px; border-top:1px solid var(--line)}
+  code{background:#f2f4f8; padding:1px 6px; border-radius:5px; font-size:.92em}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Mad Shooter</p>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: 2026-06-30</p>
+  </div>
+</header>
+
+<main>
+<div class="wrap">
+
+  <p>This Privacy Policy explains how <strong>Belligerator</strong> ("we", "us") — an independent game
+  developer based in the Czech Republic — handles your data in the mobile game <strong>Mad Shooter</strong>
+  (package <code>cz.belli.madshooter</code>) on Android and iOS. Contact:
+  <a href="mailto:dmitrij.buckovsky@gmail.com">dmitrij.buckovsky@gmail.com</a>. Belligerator is operated by
+  a private individual; the developer's full legal name is available on request.</p>
+
+  <h2>Summary</h2>
+  <ul>
+    <li>We create an account so you can save your progress and sync it across devices.</li>
+    <li>We use Google Firebase (Authentication, Analytics, Crashlytics) and our own backend.</li>
+    <li>We do <strong>not</strong> sell your data and do <strong>not</strong> share it with third parties for advertising.</li>
+    <li>The game is intended for players <strong>aged 13 and over</strong> and is not directed to children.</li>
+    <li>You can <strong>delete your account and all associated data</strong> at any time
+      (<a href="#delete-account">see below</a>).</li>
+  </ul>
+
+  <h2>What we collect and why</h2>
+  <div class="table-scroll">
+  <table>
+    <thead><tr><th>Data</th><th>Why</th><th>Legal basis (GDPR)</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Account identifiers</strong> — Firebase user ID (UID), in-game Player ID</td><td>Create your account, save and sync progress</td><td>Contract (Art. 6(1)(b))</td></tr>
+      <tr><td><strong>Email address</strong> — when you sign in with Google or Apple</td><td>Link your account so you don't lose progress; we receive it via the sign-in provider and do <strong>not</strong> store it in our own database</td><td>Contract (Art. 6(1)(b))</td></tr>
+      <tr><td><strong>Profile data</strong> — nickname, chosen avatar</td><td>Display your pilot identity in-game</td><td>Contract</td></tr>
+      <tr><td><strong>Gameplay data / telemetry</strong> — levels played, results, in-game economy events, tied to your Player ID</td><td>Run the game (progress, rewards), balance and improve levels</td><td>Contract; Legitimate interest (Art. 6(1)(f))</td></tr>
+      <tr><td><strong>Analytics</strong> — a pseudonymous app instance ID and usage events (Firebase Analytics), associated with your Firebase UID</td><td>Understand how the game is used and improve it</td><td>Consent / Legitimate interest (see <em>Analytics &amp; your choices</em>)</td></tr>
+      <tr><td><strong>Crash &amp; performance data</strong> — crash logs, device model, OS version (Firebase Crashlytics)</td><td>Diagnose crashes and keep the game stable</td><td>Legitimate interest</td></tr>
+      <tr><td><strong>Apple sign-in token</strong> (iOS only) — an encrypted Apple refresh token, stored at rest (AES-256-GCM)</td><td>Required so we can revoke Apple access when you delete your account</td><td>Legal obligation / Contract</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>We do <strong>not</strong> collect precise location, contacts, photos, microphone, or advertising
+  identifiers. The game currently contains <strong>no ads</strong>; if ads are added later, this policy
+  will be updated and you will be asked for consent where required.</p>
+
+  <h2>Who processes your data</h2>
+  <ul>
+    <li><strong>Google (Firebase / Google Cloud)</strong> — Authentication, Analytics, Crashlytics, and our
+      backend hosting. Google acts as our processor. See Google's privacy policy.</li>
+    <li><strong>Neon (database) / Google Cloud Run (backend)</strong> — store and process your account and
+      gameplay data.</li>
+  </ul>
+  <p>These providers operate servers in the <strong>EU and the United States</strong>, so your data may be
+  transferred to the US. Such transfers rely on the appropriate safeguards (e.g. Standard Contractual Clauses).</p>
+  <p>We do <strong>not</strong> share your data with third parties for their own marketing.</p>
+
+  <h2>Analytics &amp; your choices</h2>
+  <p>Analytics and crash reporting are currently enabled by default and can be turned <strong>off</strong> in
+  the game's settings (a device-local opt-out). A full first-launch consent prompt will ship together with ads
+  in a future version. When disabled, the game stops sending analytics and crash data from your device.</p>
+
+  <h2>Data retention</h2>
+  <p>We keep your account and gameplay data for as long as your account exists. When you delete your account,
+  the associated data is deleted as described below. Crash/analytics data is retained for a limited period
+  according to Firebase's default retention and then deleted or anonymised.</p>
+
+  <div class="callout" id="delete-account">
+    <h2>Deleting your account and data</h2>
+    <p>You can delete your account and all associated personal data:</p>
+    <ul>
+      <li><strong>In the app:</strong> open <strong>Profile → Delete account</strong>. This permanently removes
+        your account, your game progress, and (on iOS) revokes the linked Apple sign-in.</li>
+      <li><strong>By request:</strong> if you cannot use the in-app option, email
+        <a href="mailto:dmitrij.buckovsky@gmail.com">dmitrij.buckovsky@gmail.com</a> from the address linked to
+        your account, or include your <strong>Player ID</strong> (shown in the app under Profile), and we will
+        delete your data within 30 days.</li>
+    </ul>
+    <p>Deletion removes your <code>players</code> record, your Firebase user, and any stored Apple token.
+    Residual analytics identifiers are purged according to Firebase retention settings.</p>
+  </div>
+
+  <h2>Your rights (EU/EEA — GDPR)</h2>
+  <p>You have the right to access, correct, delete, restrict, or object to the processing of your data, and to
+  data portability. To exercise these rights, contact
+  <a href="mailto:dmitrij.buckovsky@gmail.com">dmitrij.buckovsky@gmail.com</a>. You also have the right to lodge
+  a complaint with your data protection authority (in the Czech Republic: Úřad pro ochranu osobních údajů, ÚOOÚ).</p>
+
+  <h2>Children</h2>
+  <p>Mad Shooter is intended for players <strong>aged 13 and over</strong> and is <strong>not</strong> directed
+  to children. We do not knowingly collect data from children under 13. If you believe a child has provided us
+  data, contact us and we will delete it.</p>
+
+  <h2>Security</h2>
+  <p>Data in transit is protected with HTTPS/TLS. The Apple sign-in token (iOS) is encrypted at rest.</p>
+
+  <h2>Changes</h2>
+  <p>We may update this policy. Material changes will be reflected by a new "Last updated" date on this page.</p>
+
+  <h2>Contact</h2>
+  <p><strong>Belligerator</strong> (independent developer, Czech Republic) —
+  <a href="mailto:dmitrij.buckovsky@gmail.com">dmitrij.buckovsky@gmail.com</a>.</p>
+
+</div>
+</main>
+
+</body>
+</html>
